@@ -23,8 +23,10 @@ int main()
         for (int j = 0; j < COLUNAS; j++)
         {
             printf("\n endereco da posicao [%d][%d]: %p",i, j, *(matriz + i) + j);
+            //&matriz[i][j]
         }
     }
+
     
     free(matriz);
 
