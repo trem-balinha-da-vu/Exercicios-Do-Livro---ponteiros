@@ -34,8 +34,6 @@ int main()
         ((point1 < point2) ? printf("\nnumero do ponteiro 2 eh maior") :
             printf("\nsão iguais")));
 
-    free(point1);
-    free(point2);
 
     return 0;
 }
